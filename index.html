@@ -1,1 +1,139 @@
-Mike's site
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://opg.me/ns#">
+
+<head>
+  <title>Michael del Rio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="public/stylesheets/style.css" />
+  <meta name="title" property="og:title" content="Michael del Rio" />
+  <meta name="description" property="og:description"
+    content="I'm a full stack software engineer in Toronto & co-creator of Bento" />
+  <meta name="type" property="og:type" content="website" />
+  <meta name="image" property="og:image" content="public/assets/images/android-icon-192x192.png" />
+  <meta name="author" content="Michael del Rio" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#2b5797" />
+  <meta name="theme-color" content="#ffffff" />
+</head>
+
+<body>
+  <div class="logo-links">
+    <a href="https://github.com/M-delRio/" target="_blank">
+      <img class="icon" src="public/assets/icons/git_hub.svg" alt="github logo" id="github-logo" />
+    </a>
+    <a href="public/assets/mdr_resume.pdf" target="_blank">
+      <img class="icon" src="public/assets/icons/resume.svg" alt="link to Michael del Rio's resume" id="resume-logo" />
+    </a>
+    <a href="https://www.linkedin.com/in/michael-del-rio/" target="_blank">
+      <img class="icon" src="public/assets/icons/linked_in.svg" alt="link to Michael del Rio's LinkedIn"
+        id="linkedin-logo" />
+    </a>
+  </div>
+  <main>
+    <section id="intro" class="flexbox horz-center">
+      <img id="avatar" src="public/assets/images/mike.jpg" alt="photo of Michael del Rio" />
+      <h2 id="name">Michael del Rio</h2>
+      <p>
+        I’m a software engineer based in Toronto with experience in Node/Javascript, Ruby/Rails, AWS, Docker, React.js,
+        and PostgreSQL.
+      </p>
+      <p>
+        I am a co-creator of
+        <a class="bento" href="https://github.com/bento-video/bento" target="_blank">Bento</a>, a blazing-fast
+        serverless video transcoding pipeline.
+      </p>
+    </section>
+    <hr>
+    <section id="bento" class="flexbox horz-center">
+      <div id="bento-title-container" class="flexbox">
+        <a href="https://bento-video.github.io/"><img id="bento-logo" src="public/assets/images/bento_logo.jpg"
+            alt="bento logo" /></a>
+      </div>
+      <div id="bento-info-container" class="flexbox">
+        <div>
+          <a href="https://bento-video.github.io/" target="_blank">
+            <video id="demo" src="public/assets/videos/dashboard_demo.mp4" loop muted playsinline autoplay></video>
+          </a>
+        </div>
+        <div class="flexbox horz-center">
+          <p>
+            Bento is a fast serverless video transcoding pipeline that can be easily deployed to Amazon Web Services
+            (AWS).
+          </p>
+          <p>
+            Read our case study to learn about the engineering behind
+            Bento, including how we leveraged the instant scale of functions as a service to maximize the speed of our
+            pipeline.
+          </p>
+
+          <a id="bento-repo-btn" class="btn" target="_blank" href="https://bento-video.github.io/">Read the
+            Bento Case Study</a>
+        </div>
+      </div>
+      <!-- <div id="redpoint-video-container" class="flexbox">
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ZO4O38Ogvs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="flexbox horz-center">
+          <p>Check out the presentation I gave to an online school on how I built <a class="redpoint" href="https://launchschool.com/gists/4c4a6f8e">RedPoint Presentation</a>.</p>
+        </div>
+      </div> -->
+    </section>
+    <hr>
+    <section id="projects" class="flexbox horz-center">
+      <h2>Other projects</h2>
+      <ul class="flexbox vert-center">
+        <li>
+          <img src="public/assets/images/get_toit.png" alt="Screenshot of get to-it app" />
+          <h4>Get to-it</h4>
+          <p>
+            A personal task management app built with Sinatra and a PostgreSQL database
+          </p>
+        </li>
+        <li>
+          <img src="public/assets/images/atrello.png" alt="Screenshot of pay calculator application" />
+          <h4>Atrello</h4>
+          <p>
+            A personal project management app inspired by Trello, using a Rails back-end API with a PostgreSQL database
+            and a
+            React/Redux front-end.
+          </p>
+        </li>
+        <li>
+          <img src="public/assets/images/airline_routes.png" alt="Screenshot of postit application" />
+          <h4>Airline-Routes</h4>
+          <p>
+            A route-finding React application bootsrapped with Create React App
+          </p>
+        </li>
+
+      </ul>
+    </section>
+    <section id="contact" class="flexbox horz-center">
+      <h4>
+        <a href="mailto:mikevdelrio@gmail.com">mikevdelrio@gmail.com</a>
+      </h4>
+      <ul class="flexbox vert-center">
+        <li>
+          <a href="public/assets/mdr_resume.pdf" target="_blank">
+            <img class="icon" src="public/assets/icons/resume.svg" alt="link to Michae del Rio's resume" />
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/M-delRio/" target="_blank">
+            <img class="icon" src="public/assets/icons/git_hub.svg" alt="link to Michae del Rio's GitHub" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/michael-del-rio/" target="_blank">
+            <img class="icon" src="public/assets/icons/linked_in.svg" alt="link to Michae del Rio's LinkedIn" />
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+
+</html>
